@@ -3,6 +3,7 @@ import NavBar from '../../components/navBar/NavBar'
 import CarouselHome from '../../components/carouselHome/CarouselHome'
 import Footer from '../../components/footer/Footer'
 import Banner from '../../components/banner/Banner'
+import CategoriesHome from '../../components/categoriesHome/CategoriesHome'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Banner/>
         <NavBar/>
         <CarouselHome/>
+        <CategoriesHome/>
         <Footer/>
     </>
   )

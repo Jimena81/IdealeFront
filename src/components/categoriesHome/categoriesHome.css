@@ -1,0 +1,21 @@
+.container-treatments{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    opacity:50%;
+    border-radius:10px;
+}
+.container-treatments:hover{
+    
+    opacity:100%;
+}
+
+.centrado{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size:32px;
+    color: white;
+
+}
