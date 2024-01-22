@@ -1,6 +1,11 @@
 /* ================================================= */
 /* FIRST MOBILE */
 /* ================================================= */
+.container-footer{
+    width:100%;
+    position: fixed;
+    bottom: 0;  
+}
 .head-footer{
     display:flex;
     flex-direction:column;
@@ -46,7 +51,11 @@
 /* MAYOR O IGUAL DE 992PX (A PARTIR DE 992PX INCLUSIVE) - PC PEQUEÑOS, LAPTOPS */
 @media only screen and (min-width:992px){
 
-
+    .head-footer{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+    }
   
 
 }
