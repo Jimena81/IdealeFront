@@ -1,21 +1,154 @@
+
+
 .container-treatments{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    opacity:50%;
-    border-radius:10px;
+    display: grid;
+    grid-template-columns: repeat(1,  1fr);
+    grid-auto-rows:250px;
+    padding:20px;
+    grid-gap: 15px;
+   
 }
-.container-treatments:hover{
-    
+
+.grid_img{
+    width:100%;
+    height:100%;
+    object-fit: cover; 
+    opacity:60%;
+}
+.grid_img:hover{
     opacity:100%;
+    transition:600ms;
 }
 
-.centrado{
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    font-size:32px;
-    color: white;
+.facials{
+    grid-column-start: span 1; 
+    grid-row-start: span 1;
+    position:relative;
+}
+.title-grig-img{
+    position:absolute;
+    top:0;
+    color:#7a6854;
+    font-size:1rem;
+    padding:15px;
 
+}
+
+
+.manicures{
+    grid-row-start: span 1;
+    position:relative;
+    
+}
+
+.massages{
+    grid-row-start: span 1;
+    position:relative;
+}
+.waxing{
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    position:relative;
+}
+.pestanhas{
+    
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    position:relative;
+} 
+.gift{
+    grid-row-start: span 1;
+    position:relative;
+
+}
+
+@media (min-width:768px){
+
+    .container-treatments{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows:250px;
+        padding:80px;
+        grid-gap: 20px;
+    }
+
+    .manicures{
+        grid-column-start: span 3;
+        
+        
+    }
+    .massages{
+        grid-column-start: span 4;
+    }
+    .pestanhas{
+    
+        grid-column-start: span 3;
+    } 
+    .gift{
+        grid-column-start: span 4;
+    
+    }
+    .title-grig-img{
+        
+        font-size:1.5rem;
+       
+    
+    }
+
+    @media only screen and (min-width:1200px){
+
+        .container-treatments{
+          
+            grid-template-columns: repeat(3,  1fr);
+            padding:100px;
+            grid-gap: 25px;
+            width:80%;
+            margin:0 auto;
+           
+        }
+        
+        
+          
+        .facials{
+            grid-column-start: span 2; 
+            grid-row-start: span 2;
+            position:relative;
+        }
+        .title-grig-img{
+            
+            font-size:2rem;
+            
+        
+        }
+        
+        
+        .manicures{
+            grid-row-start: span 2;
+            grid-column-start: span 2;
+            position:relative;
+            
+        }
+        
+        .massages{
+            grid-row-start: span 2;
+            position:relative;
+        }
+        .waxing{
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+            position:relative;
+        }
+        .pestanhas{
+            
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+            position:relative;
+        } 
+        .gift{
+            grid-row-start: span 2;
+            position:relative;
+        
+        }
+
+
+    }
 }

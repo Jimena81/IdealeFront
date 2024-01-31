@@ -1,6 +1,6 @@
 import  { useState, useEffect } from 'react';
-import firstImgCarousel from '../../assets/tendencias-estetica.jpg';
-import secondImgCarousel from '../../assets/estetica2.jpg'
+import firstImgCarousel from '../../assets/tratamiento1.jpg';
+import secondImgCarousel from '../../assets/tratamiento2.jpg'
 
 const CarouselHome = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -32,7 +32,7 @@ const CarouselHome = () => {
 
   return (
     <div className="relative overflow-hidden">
-      <div className="relative w-full h-[400px] overflow-hidden">
+      <div className="relative w-full h-[500px] overflow-hidden">
         {slides.map((slide, index) => (
           <div
             key={index}

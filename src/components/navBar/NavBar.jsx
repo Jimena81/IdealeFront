@@ -13,8 +13,8 @@ function NavBar() {
   return (
     <>
       <div>
-        <nav id="header" className="w-full  bg-white shadow-lg border-b border-gray-400 ">
-          <div className="w-full flex items-center justify-center mt-0 px-6 py-2 ">
+        <nav id="header" className="w-full  bg-white shadow-lg border-b border-gray-400">
+          <div className="w-full flex items-start justify-center mt-0 px-6 py-2 ">
             <label htmlFor="menu-toggle" className="cursor-pointer md:hidden block">
               <i className={`fa ${isMenuOpen ? 'fa-times' : 'fa-bars'} text-black-500`} aria-hidden="true"></i>
             </label>
