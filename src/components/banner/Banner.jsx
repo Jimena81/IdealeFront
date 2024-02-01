@@ -1,6 +1,6 @@
 
 
-import mainLogo from '../../assets/TSL-logotipo.png';
+import mainLogo from '../../assets/logoIdeale.jpg';
 
 
 function Banner() {
