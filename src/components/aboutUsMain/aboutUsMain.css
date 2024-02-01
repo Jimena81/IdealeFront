@@ -1,29 +1,12 @@
 /* ================================================= */
 /* FIRST MOBILE */
 /* ================================================= */
-.container-footer{
-    width:100%;
-    position:absolute;
-    bottom: 0; 
-    background-color: #7a6854;
+.aboutUs-title{
+
 }
-.head-footer{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-.img-logo-footer{
-    width:50px;
-    height:50px;
-    filter:invert(1)
-}
-.adress-container{
-    font-size:12px;
-   
-}
-.icons-container{
-    font-size:20px;
-    filter:invert(1)
+.img-sisters{
+    width:2.25rem;
+    height:2.25rem;
 }
 
 /* ================================================= */
@@ -53,11 +36,7 @@
 /* MAYOR O IGUAL DE 992PX (A PARTIR DE 992PX INCLUSIVE) - PC PEQUEÑOS, LAPTOPS */
 @media only screen and (min-width:992px){
 
-    .head-footer{
-        display:flex;
-        flex-direction:row;
-        align-items:center;
-    }
+
   
 
 }
