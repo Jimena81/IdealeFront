@@ -5,6 +5,7 @@ import manicuras from '../../assets/manicuras.jpg'
 import masajes from '../../assets/masajes2.jpg'
 import depilacion from '../../assets/depilacion.jpg'
 import pestanhas from '../../assets/pestanhas.jpg'
+import { Link } from 'react-router-dom'
 
 
 
@@ -13,7 +14,7 @@ function CategoriesHome() {
    
         <div className='container-treatments'>
             <div className='facials'>
-                <a><img className='grid_img' src={faciales} alt="tratamientos faciales"></img></a>
+                <Link to={'/FacialsTreatments'}><img className='grid_img' src={faciales} alt="tratamientos faciales"></img></Link>
                 <p className="title-grig-img">FACIALES</p>
            </div>
            <div className='manicures'>

@@ -6,7 +6,7 @@ function AboutUsMain() {
   return (
     <div className="container xl:w-9/12 xl:m-auto">
     <div className="aboutUs-title p-20 text-center text-xl">
-        <h1>Conócenos</h1>
+        <h1 className="text-3xl">Conócenos</h1>
         <a href="/"><span className="hover:text-[#943849] text-black">Home /</span></a> <span className="opacity-65 ">Conócenos</span>
     </div>
     <div className="img-text-aboutUs flex flex-col lg:flex-row xl:flex-row w-9/12 m-auto mb-10 justify-start">

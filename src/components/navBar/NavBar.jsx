@@ -1,5 +1,6 @@
 import  { useState } from 'react';
 import './navBar.css';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -41,7 +42,7 @@ function NavBar() {
                   </div>
                 </li>
                 <li><a className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2" href="#">Blog</a></li>
-                <li><a className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2" href="#">Contacto</a></li>
+                <li><Link to={'/contacto'} className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2">Contacto</Link></li>
               </ul>
             </div>
           </div>
