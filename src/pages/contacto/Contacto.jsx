@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import Banner from "../../components/banner/Banner"
 import Footer from "../../components/footer/Footer"
 import NavBar from "../../components/navBar/NavBar"
+import BussinessMap from "../../components/bussinessMap/BussinessMap"
 
 function Contacto() {
   return (
@@ -9,7 +10,7 @@ function Contacto() {
     <Banner/>
     <NavBar/>
         <div className="treatments-title p-20 text-center text-xl">
-          <h1 className="text-3xl">Tratamientos</h1>
+          <h1 className="text-3xl">CONTACTO</h1>
           <Link to={'/'}><span className="hover:text-[#943849] text-black">Home /</span></Link>
           <span className="opacity-65 ">Contacto</span>
         </div>
@@ -26,7 +27,12 @@ function Contacto() {
             <span className="text-2xl text-gray-600">Sábados de 9:00h a 14:00h</span>
             <span className="text-2xl text-gray-600">Domingos y festivos cerrado</span>
         </div>
+        
         </div>
+        <div className="flex justify-center">
+        <BussinessMap/>
+        </div>
+        
     <Footer/>
     </div>
   )
