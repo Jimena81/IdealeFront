@@ -31,9 +31,9 @@ function NavBar() {
                     <button onClick={toggleDropdown} className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2 dropdown-toggle" style={{ outline: 'none' }}>Tratamientos</button>
                     {isDropdownOpen && (
                       <div className="dropdown-menu flex flex-col text-lg divide-y-4 divide-[#943849]/25 ml-2">
-                        <a href="/FacialsTreatments">Faciales</a>
-                        <a href="#">Manicuras & Co.</a>
-                        <a href="#">Masajes</a>
+                        <a href="/facialsTreatments">Faciales</a>
+                        <a href="/manicures&Co">Manicuras & Co.</a>
+                        <a href="/massages">Masajes</a>
                         <a href="#">Depilación</a>
                         <a href="#">Pestañas</a>
                         <a href="#">Bono regalo</a>

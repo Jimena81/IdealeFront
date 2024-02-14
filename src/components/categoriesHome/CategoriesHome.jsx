@@ -14,16 +14,16 @@ function CategoriesHome() {
    
         <div className='container-treatments'>
             <div className='facials'>
-                <Link to={'/FacialsTreatments'}><img className='grid_img' src={faciales} alt="tratamientos faciales"></img></Link>
-                <p className="title-grig-img">FACIALES</p>
+               <Link to={'/FacialsTreatments'}><img className='grid_img' src={faciales} alt="tratamientos faciales"></img></Link>
+               <p className="title-grig-img">FACIALES</p>
            </div>
            <div className='manicures'>
-                <a><img className='grid_img' src={manicuras} alt="manicuras"></img></a>
-                <p className="title-grig-img">MANICURA</p>
+               <Link to={'/manicures&Co'}><img className='grid_img' src={manicuras} alt="manicuras"></img></Link>
+               <p className="title-grig-img">MANICURAS&Co.</p>
            </div>
            <div className='massages'>
-                <a><img className='grid_img' src={masajes} alt="masajes"></img></a>
-                <p className="title-grig-img">MASAJES</p>
+               <Link to={'/massages'}><img className='grid_img' src={masajes} alt="masajes"></img></Link>
+               <p className="title-grig-img">MASAJES</p>
            </div>
            <div className='waxing'>
                 <a><img className='grid_img' src={depilacion} alt="depilacion"></img></a>

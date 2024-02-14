@@ -4,7 +4,7 @@ import CarouselCentro from "../carouselCentro/CarouselCentro"
 
 function AboutUsMain() {
   return (
-    <div className="container xl:w-9/12 xl:m-auto">
+    <div className="container xl:w-9/12 m-auto">
     <div className="aboutUs-title p-20 text-center text-xl">
         <h1 className="text-3xl">Conócenos</h1>
         <a href="/"><span className="hover:text-[#943849] text-black">Home /</span></a> <span className="opacity-65 ">Conócenos</span>
