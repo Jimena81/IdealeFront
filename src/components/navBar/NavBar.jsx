@@ -34,7 +34,7 @@ function NavBar() {
                         <a href="/facialsTreatments">Faciales</a>
                         <a href="/manicures&Co">Manicuras & Co.</a>
                         <a href="/massages">Masajes</a>
-                        <a href="#">Depilación</a>
+                        <a href="/waxing">Depilación</a>
                         <a href="#">Pestañas</a>
                         <a href="#">Bono regalo</a>
                       </div>

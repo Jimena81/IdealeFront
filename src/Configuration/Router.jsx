@@ -12,6 +12,10 @@ import Pedicures from "../pages/pedicures/Pedicures"
 import Massages from "../pages/massages/Massages";
 import FacialMassages from "../pages/facialMassages/FacialMassages";
 import BodyMassages from "../pages/bodyMassages/BodyMassages";
+import Waxing from "../pages/waxing/Waxing"
+import FacialWaxing from "../pages/facialWaxing/FacialWaxing";
+import BodyWaxing from "../pages/bodyWaxing/BodyWaxing";
+
 
 
 
@@ -32,6 +36,10 @@ const Router = () => {
                 <Route path="/massages" element={<Massages/>}></Route>
                     <Route path="facialMassages" element={<FacialMassages/>}></Route>
                     <Route path="bodyMassages" element={<BodyMassages/>}></Route>
+                <Route path="/waxing" element={<Waxing/>}></Route>
+                    <Route path="facialWaxing" element={<FacialWaxing/>}></Route>
+                    <Route path="bodyWaxing" element={<BodyWaxing/>}></Route> 
+                    
 
                 <Route path="/contacto" element={<Contacto/>}></Route>
             </Routes>

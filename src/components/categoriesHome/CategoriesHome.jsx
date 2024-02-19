@@ -19,14 +19,14 @@ function CategoriesHome() {
            </div>
            <div className='manicures'>
                <Link to={'/manicures&Co'}><img className='grid_img' src={manicuras} alt="manicuras"></img></Link>
-               <p className="title-grig-img">MANICURAS&Co.</p>
+               <p className="title-grig-img">MANICURAS</p>
            </div>
            <div className='massages'>
                <Link to={'/massages'}><img className='grid_img' src={masajes} alt="masajes"></img></Link>
                <p className="title-grig-img">MASAJES</p>
            </div>
            <div className='waxing'>
-                <a><img className='grid_img' src={depilacion} alt="depilacion"></img></a>
+                <Link to={'/waxing'}><img className='grid_img' src={depilacion} alt="depilacion"></img></Link>
                 <p className="title-grig-img">DEPILACIÓN</p>
            </div>
             <div className='pestanhas'>
