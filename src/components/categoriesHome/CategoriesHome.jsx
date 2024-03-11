@@ -5,6 +5,7 @@ import manicuras from '../../assets/manicuras.jpg'
 import masajes from '../../assets/masajes2.jpg'
 import depilacion from '../../assets/depilacion.jpg'
 import pestanhas from '../../assets/pestanhas.jpg'
+import bono from '../../assets/bono.jpg'
 import { Link } from 'react-router-dom'
 
 
@@ -30,11 +31,11 @@ function CategoriesHome() {
                 <p className="title-grig-img">DEPILACIÓN</p>
            </div>
             <div className='pestanhas'>
-                <a><img className='grid_img' src={pestanhas} alt="pestanhas"></img></a>
+                <Link to={'/lashes'}><img className='grid_img' src={pestanhas} alt="pestanhas"></img></Link>
                 <p className="title-grig-img">PESTAÑAS</p>
            </div> 
            <div className='gift'>
-                <a><img className='grid_img' src={pestanhas} alt="regalo"></img></a>
+                <a><img className='grid_img' src={bono} alt="regalo"></img></a>
                 <p className="title-grig-img">¿NO SABES QUE REGALAR?</p>
            </div> 
         </div>

@@ -1,4 +1,5 @@
-import  { useState } from 'react';
+
+import { useState } from 'react';
 import './navBar.css';
 import { Link } from 'react-router-dom';
 
@@ -10,8 +11,12 @@ function NavBar() {
     setMenuOpen(!isMenuOpen);
   };
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!isDropdownOpen);
+  const openDropdown = () => {
+    setDropdownOpen(true);
+  };
+
+  const closeDropdown = () => {
+    setDropdownOpen(false);
   };
 
   return (
@@ -27,15 +32,15 @@ function NavBar() {
               <ul className="md:flex content-center justify-between text-base text-gray-500 pt-4 md:pt-0">
                 <li><a className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2" href="/AboutUS">Conócenos</a></li>
                 <li>
-                  <div className="dropdown">
-                    <button onClick={toggleDropdown} className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2 dropdown-toggle" style={{ outline: 'none' }}>Tratamientos</button>
+                  <div className="dropdown" onMouseEnter={openDropdown} onMouseLeave={closeDropdown}>
+                    <button className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2 dropdown-toggle" style={{ outline: 'none' }}>Tratamientos</button>
                     {isDropdownOpen && (
-                      <div className="dropdown-menu flex flex-col text-lg divide-y-4 divide-[#943849]/25 ml-2">
+                      <div className="dropdown-menu flex flex-col text-lg divide-y-4 divide-[#943849]/25 ml-2" onMouseEnter={openDropdown} onMouseLeave={closeDropdown}>
                         <a href="/facialsTreatments">Faciales</a>
                         <a href="/manicures&Co">Manicuras & Co.</a>
                         <a href="/massages">Masajes</a>
                         <a href="/waxing">Depilación</a>
-                        <a href="#">Pestañas</a>
+                        <a href="/lashes">Pestañas</a>
                         <a href="#">Bono regalo</a>
                       </div>
                     )}
@@ -53,3 +58,5 @@ function NavBar() {
 }
 
 export default NavBar;
+
+

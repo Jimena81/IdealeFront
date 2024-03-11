@@ -16,7 +16,7 @@ function FacialRejuvenation() {
           <Link to={'/FacialsTreatments'}><span className="hover:text-[#943849] text-black">Facial /</span></Link>
           <span className="opacity-65 ">Rejuvenecimiento</span>
         </div>
-        <div className="flex gap-2 m-2 flex-wrap">
+        <div className="flex gap-2 m-2 flex-wrap justify-center">
             <TreatmentsCard image={Higiene} name="Mascarillas" price="25€"/>
             <TreatmentsCard image={Higiene} name="Mascarillas" price="25€"/>
             <TreatmentsCard image={Higiene} name="Mascarillas" price="25€"/>

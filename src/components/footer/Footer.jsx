@@ -1,11 +1,12 @@
-import logoFooter from '../../assets/TSL-logotipo.png'
+import { Link } from "react-router-dom"
+import logo from '../../assets/logoIdeale.jpg'
 import './footer.css'
 
 function Footer() {
   return (
     <div className='container-footer p-4'>
         <div className='head-footer flex justify-evenly'>
-            <img src={logoFooter} alt='logo' className='img-logo-footer w-24 cursor-pointer '></img>
+            <Link to={'/'}><img src={logo} alt='logo' className='img-logo-footer w-24 cursor-pointer '></img></Link>
             <div className='adress-container mt-3 flex flex-col items-center text-slate-100'>
                 <p>C/ Asturias 18, 33004 Oviedo // +34 984 068 532</p>
                 <p>info@idealelaura&marta.es</p>

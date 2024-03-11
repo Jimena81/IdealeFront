@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import pedicure from "../../assets/manicure.jpg"
+import pedicure from "../../assets/pedicura.jpeg"
 import manicure from "../../assets/manicure.jpg"
 
 function MainManicures() {

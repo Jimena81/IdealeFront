@@ -1,7 +1,7 @@
 import Banner from "../../components/banner/Banner"
 import Footer from "../../components/footer/Footer"
 import NavBar from "../../components/navBar/NavBar"
-import manicure from "../../assets/manicure.jpg";
+import pedicure from "../../assets/pedicura.jpeg";
 import TreatmentsCard from "../../components/treatmentsCard/TreatmentsCard";
 import { Link } from 'react-router-dom';
 
@@ -19,8 +19,8 @@ function Pedicures() {
           <span className="opacity-65 ">Pedicuras</span>
     </div>
     <div className="flex gap-2 m-2 flex-wrap justify-center">
-        <TreatmentsCard image={manicure} name="Clásica" price="25€"/>
-        <TreatmentsCard image={manicure} name="Permanente" price="25€"/>
+        <TreatmentsCard image={pedicure} name="Clásica" price="25€"/>
+        <TreatmentsCard image={pedicure} name="Permanente" price="25€"/>
         {/* <TreatmentsCard image={manicure} name="Mascarillas" price="25€"/>
         <TreatmentsCard image={manicure} name="Mascarillas" price="25€"/> */}
     </div>
