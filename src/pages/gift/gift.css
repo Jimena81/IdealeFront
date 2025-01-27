@@ -1,0 +1,10 @@
+.giftImg{
+    display:flex;
+    justify-content:center;
+    padding: 9rem; 
+
+}
+.giftText{
+    text-align:center;
+    
+}

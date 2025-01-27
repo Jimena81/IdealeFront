@@ -41,7 +41,7 @@ function NavBar() {
                         <a href="/massages">Masajes</a>
                         <a href="/waxing">Depilación</a>
                         <a href="/lashes">Pestañas</a>
-                        <a href="#">Bono regalo</a>
+                        <a href="/gift">Bono regalo</a>
                       </div>
                     )}
                   </div>

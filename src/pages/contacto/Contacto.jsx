@@ -15,13 +15,14 @@ function Contacto() {
           <span className="opacity-65 ">Contacto</span>
         </div>
         <div className="flex justify-evenly flex-col md:flex-row sm:flex-row   ">
-        <div className="p-10 flex flex-col gap-4 ">
+        <div className="p-10 flex flex-col gap-2">
             <h2 className="text-[#943849] text-3xl font-bold">CITA PREVIA</h2>
             <span className="text-2xl text-gray-600">+34 984 06 85 32</span>
+            <span className="text-2xl text-gray-600">+34 656 45 99 52 </span>
             <span className="text-2xl text-gray-600">ideale93@gmail.com</span>
 
         </div>
-        <div className="p-10 flex flex-col gap-4 ">
+        <div className="p-10 flex flex-col gap-2">
         <h2 className="text-[#943849] text-3xl font-bold">HORARIO</h2>
             <span className="text-2xl text-gray-600">De lunes a viernes de 9:30h a 20:00h</span>
             <span className="text-2xl text-gray-600">Sábados de 9:00h a 14:00h</span>

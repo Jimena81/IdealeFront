@@ -16,6 +16,8 @@ import Waxing from "../pages/waxing/Waxing"
 import FacialWaxing from "../pages/facialWaxing/FacialWaxing";
 import BodyWaxing from "../pages/bodyWaxing/BodyWaxing";
 import Lashes from "../pages/lashes/lashes";
+import Gift from "../pages/gift/Gift";
+import Admin from "../pages/Admin/AdminHome"
 
 
 
@@ -41,8 +43,11 @@ const Router = () => {
                     <Route path="facialWaxing" element={<FacialWaxing/>}></Route>
                     <Route path="bodyWaxing" element={<BodyWaxing/>}></Route> 
                 <Route path="/lashes" element={<Lashes/>}></Route>
-
+                <Route path="/gift" element={<Gift/>}></Route>
+                
                 <Route path="/contacto" element={<Contacto/>}></Route>
+
+                <Route path="/admin" element={<Admin/>}></Route>
             </Routes>
         </BrowserRouter>
     );

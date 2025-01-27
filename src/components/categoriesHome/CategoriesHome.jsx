@@ -35,7 +35,7 @@ function CategoriesHome() {
                 <p className="title-grig-img">PESTAÑAS</p>
            </div> 
            <div className='gift'>
-                <a><img className='grid_img' src={bono} alt="regalo"></img></a>
+                <Link to={'/gift'}><img className='grid_img' src={bono} alt="regalo"></img></Link>
                 <p className="title-grig-img">¿NO SABES QUE REGALAR?</p>
            </div> 
         </div>
