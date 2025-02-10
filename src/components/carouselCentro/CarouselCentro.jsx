@@ -1,5 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
+import welcome from '../../assets/bienvenida.JPEG';
+import room1 from '../../assets/sala1.JPEG';
+import room2 from '../../assets/sala2.JPG';
+import manicure from '../../assets/manicura.JPEG';
 
 
 function CarouselCentro() {
@@ -7,19 +11,24 @@ function CarouselCentro() {
   //const [timer, setTimer] = useState(null);
   const slides = [
     {
-      image: 'https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg',
-      label: 'First slide label',
-      content: 'Some representative placeholder content for the first slide.',
+      image: welcome,
+      label: '¡Bienvenidos!',
+      content: 'Reserva tu cita',
     },
     {
-      image: 'https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg',
-      label: 'Second slide label',
-      content: 'Some representative placeholder content for the second slide.',
+      image: room1,
+      label: 'Sala uno',
+      content: 'Sala de pedicura y depilación',
     },
     {
-      image: 'https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg',
-      label: 'Third slide label',
-      content: 'Some representative placeholder content for the third slide.',
+      image: room2,
+      label: 'Sala dos',
+      content: 'Sala de masajes y pestañas',
+    },
+    {
+      image: manicure,
+      label: 'Zona de manicura',
+      content: 'Manicuras normales y permanentes.',
     },
   ];
 
@@ -28,9 +37,8 @@ function CarouselCentro() {
       nextSlide();
     }, 7000); 
 
-    // Limpiar el temporizador cuando el componente se desmonta
     return () => clearInterval(intervalId);
-  }, [currentSlide]); // El efecto se activa cuando cambia currentSlide
+  }, [currentSlide]);
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
