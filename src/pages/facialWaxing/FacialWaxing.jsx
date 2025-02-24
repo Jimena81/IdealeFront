@@ -17,10 +17,8 @@ function FacialWaxing() {
           <span className="opacity-65 ">Depilación Facial</span>
         </div>
         <div className="flex gap-2 m-2 flex-wrap justify-center">
-        <TreatmentsCard image={facialWaxing} name="Labio, mentón" price="25€"/>
-        <TreatmentsCard image={facialWaxing} name="Cejas" price="25€"/>
-        <TreatmentsCard image={facialWaxing} name="Rostro" price="25€"/>
-        
+          <TreatmentsCard image={facialWaxing} name="Labio" price="3,50€"/>
+          <TreatmentsCard image={facialWaxing} name="Cejas" price="8€"/>
         </div>
         <Footer/>
     </div>

@@ -17,10 +17,10 @@ function Manicures() {
             <span className="opacity-65 ">Manicuras</span>
         </div>
          <div className="flex gap-2 m-2 flex-wrap justify-center">
-            <TreatmentsCard image={manicure} name="Clásica" price="25€"/>
-            <TreatmentsCard image={manicure} name="Permanente" price="25€"/>
-            {/* <TreatmentsCard image={manicure} name="Mascarillas" price="25€"/>
-            <TreatmentsCard image={manicure} name="Mascarillas" price="25€"/> */}
+            <TreatmentsCard image={manicure} name="Clásica" price="13€"/>
+            <TreatmentsCard image={manicure} name="Permanente" price="23€"/>
+            <TreatmentsCard image={manicure} name="Limar y pintar" price="9€"/>
+            <TreatmentsCard image={manicure} name="Tratamiento de Parafina" price="10€"/>
         </div>
         <Footer/>
     </div>

@@ -19,9 +19,9 @@ function BodyMassages() {
         </div>
         <div className="flex gap-2 m-2 flex-wrap justify-center">
         <TreatmentsCard image={bodyMassage} name="Relax 30'" price="25€"/>
-        <TreatmentsCard image={bodyMassage} name="Relax 60'" price="25€"/>
-        <TreatmentsCard image={bodyMassage} name="Drenaje linfático" price="25€"/>
-        <TreatmentsCard image={bodyMassage} name="Anti-celulítico" price="25€"/>
+        <TreatmentsCard image={bodyMassage} name="Relax 60'" price="35€"/>
+        <TreatmentsCard image={bodyMassage} name="Peeling corporal" price="24€"/>
+        <TreatmentsCard image={bodyMassage} name="Peeling corporal + masaje (90')" price="55€"/>
         </div>
         <Footer/>
     </div>

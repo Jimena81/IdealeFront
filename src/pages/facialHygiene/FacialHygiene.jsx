@@ -17,10 +17,8 @@ function FacialHygiene() {
           <span className="opacity-65 ">Higienes & Peeling</span>
         </div>
         <div className="flex gap-2 m-2 flex-wrap justify-center">
-        <TreatmentsCard image={Higiene} name="Mascarillas" price="25€"/>
-        <TreatmentsCard image={Higiene} name="Mascarillas" price="25€"/>
-        <TreatmentsCard image={Higiene} name="Mascarillas" price="25€"/>
-        <TreatmentsCard image={Higiene} name="Mascarillas" price="25€"/>
+        <TreatmentsCard image={Higiene} name="Higiene facial" price="35€"/>
+        <TreatmentsCard image={Higiene} name="Tratamiento específico" price="47€"/>
         </div>
         <Footer/>
     </div>

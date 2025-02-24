@@ -8,14 +8,19 @@ function Footer() {
         <div className='head-footer flex justify-evenly'>
             <Link to={'/'}><img src={logo} alt='logo' className='img-logo-footer w-24 cursor-pointer '></img></Link>
             <div className='adress-container mt-3 flex flex-col items-center text-slate-100'>
-                <p>C/ Asturias 18, 33004 Oviedo // +34 984 068 532</p>
-                <p>info@idealelaura&marta.es</p>
-                <p>www.ideale.es</p>
+                <p>C/ Asturias 18, 33004 Oviedo </p>
+                <p>+34 984 068 532 // +34 656 45 99 52</p>
+                <p>ideale93@gmail.com</p>
             </div>
-            <div className='icons-container mt-5 gap-4 mb-2 cursor-pointer'>
-                <i className="fa-brands fa-facebook w-10"></i>
-                <i className="fa-brands fa-square-instagram"></i>
+            <div className="icons-container mt-5 gap-4 mb-2 cursor-pointer flex">
+                <a href="https://www.facebook.com/share/166DutDUq6/" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-facebook text-2xl"></i>
+                </a>
+                <a href="https://www.instagram.com/ideale_estetica?igsh=OXpjOXgxc3ZvYTIy" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-instagram text-2xl"></i>
+                </a>
             </div>
+
         </div>
         
         <hr></hr>
@@ -23,13 +28,6 @@ function Footer() {
         <div className='flex flex-col items-center text-slate-100 mt-2 text-xs'>
             <div>
                 <p>Ideale Laura&Marta © Copyright 2024</p> 
-            </div>
-            <div className='flex gap-4 text-slate-100 cursor-pointer'>
-                <span>Aviso legal</span> <span>Política de cookies</span>
-
-            </div>
-            <div>
-
             </div>
 
         </div>

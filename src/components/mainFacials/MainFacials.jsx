@@ -1,8 +1,6 @@
 import "./mainFacials.css";
 
 import Higiene from "../../assets/peeling.jpg";
-import Hidratacion from "../../assets/hidratacion.jpg";
-import rejuvenecimiento from "../../assets/rejuv.jpg";
 import { Link } from "react-router-dom";
 
 
@@ -18,14 +16,6 @@ function MainFacials() {
           <div className='hygiene relative'>
             <Link to={'/FacialHygiene'}><img className='grid_image w-80' src={Higiene} alt="higiene" /></Link>
             <p className="title-grig-image absolute top-0 left-0 text-white p-2 font-semibold">HIGIENES & PEELINGS</p>
-          </div>
-          <div className='moisturizing relative'>
-          <Link to={'/FacialMoisturizing'}><img className='grid_image w-80' src={Hidratacion} alt="hidratacion" /></Link>
-            <p className="title-grig-image absolute top-0 left-0 text-white p-2 font-semibold">HIDRATACIÓN & LUMINOSIDAD</p>
-          </div>
-          <div className='rejuvenation relative'>
-          <Link to={'/FacialRejuvenation'}><img className='grid_image w-96 h-80' src={rejuvenecimiento} alt="rejuvenecimiento" /></Link>
-            <p className="title-grig-image absolute top-0 left-0 text-white p-2 font-semibold">REJUVENECIMIENTO</p>
           </div>
         </div>
         

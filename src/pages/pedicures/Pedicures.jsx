@@ -19,10 +19,9 @@ function Pedicures() {
           <span className="opacity-65 ">Pedicuras</span>
     </div>
     <div className="flex gap-2 m-2 flex-wrap justify-center">
-        <TreatmentsCard image={pedicure} name="Clásica" price="25€"/>
-        <TreatmentsCard image={pedicure} name="Permanente" price="25€"/>
-        {/* <TreatmentsCard image={manicure} name="Mascarillas" price="25€"/>
-        <TreatmentsCard image={manicure} name="Mascarillas" price="25€"/> */}
+        <TreatmentsCard image={pedicure} name="Clásica" price="23€"/>
+        <TreatmentsCard image={pedicure} name="Permanente" price="33€"/>
+        <TreatmentsCard image={pedicure} name="Tratamiento de Parafina" price="10€"/>
     </div>
     <Footer/>
 
