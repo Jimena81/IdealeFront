@@ -1,7 +1,7 @@
 import Banner from "../../components/banner/Banner"
 import Footer from "../../components/footer/Footer"
 import NavBar from "../../components/navBar/NavBar"
-import Higiene from "../../assets/peeling.webp";
+import Higiene from "../../assets/peeling.jpg";
 import TreatmentsCard from "../../components/treatmentsCard/TreatmentsCard";
 import { Link } from 'react-router-dom';
 

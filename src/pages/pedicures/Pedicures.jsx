@@ -1,7 +1,7 @@
 import Banner from "../../components/banner/Banner"
 import Footer from "../../components/footer/Footer"
 import NavBar from "../../components/navBar/NavBar"
-import pedicure from "../../assets/pedicura.jpeg";
+import pedicure from "../../assets/pedicura.jpg";
 import TreatmentsCard from "../../components/treatmentsCard/TreatmentsCard";
 import { Link } from 'react-router-dom';
 

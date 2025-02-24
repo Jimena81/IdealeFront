@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import facialMassage from "../../assets/masajeFacial.avif"
-import bodyMassage from "../../assets/masajeCorporal.avif"
+import facialMassage from "../../assets/masajeFacial.jpg"
+import bodyMassage from "../../assets/masajeCorporal.jpg"
 
 
 

@@ -1,7 +1,7 @@
 import Banner from "../../components/banner/Banner"
 import Footer from "../../components/footer/Footer"
 import NavBar from "../../components/navBar/NavBar"
-import facialMassage from "../../assets/masajeFacial.avif"
+import facialMassage from "../../assets/masajeFacial.jpg"
 import TreatmentsCard from "../../components/treatmentsCard/TreatmentsCard";
 import { Link } from 'react-router-dom';
 

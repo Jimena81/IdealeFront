@@ -1,6 +1,6 @@
 import "./mainFacials.css";
 
-import Higiene from "../../assets/peeling.webp";
+import Higiene from "../../assets/peeling.jpg";
 import Hidratacion from "../../assets/hidratacion.jpg";
 import rejuvenecimiento from "../../assets/rejuv.jpg";
 import { Link } from "react-router-dom";

@@ -46,7 +46,6 @@ function NavBar() {
                     )}
                   </div>
                 </li>
-                <li><a className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2" href="#">Blog</a></li>
                 <li><Link to={'/contacto'} className="inline-block no-underline hover:text-black font-medium text-xl py-2 px-4 lg:-ml-2">Contacto</Link></li>
               </ul>
             </div>
