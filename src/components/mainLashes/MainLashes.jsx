@@ -13,7 +13,7 @@ function MainLashes() {
           <div className='container-lashes flex gap-6 m-auto justify-center cursor-pointer flex-wrap'>
             <div className='relative'>
               <Link to={'/lashes'}><img className='grid_image w-80' src={pestanhas} alt="cejas" /></Link>
-              <p className="title-grig-image absolute top-0 left-0 text-white p-2 font-semibold">PESTAÑAS</p>
+              <p className="title-grig-image text-white p-2 font-semibold">PESTAÑAS</p>
             </div>
             
             
